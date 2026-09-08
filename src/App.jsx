@@ -9,6 +9,7 @@ import React, { useState, useMemo } from "react";
 // - Run simulation -> Gantt chart (SVG), metrics table, and timeline details
 // - Nice UI with Tailwind utility classes
 // Utility: generate distinct pastel colors
+
 function colorForPid(pid) {
   // simple hash -> HSL
   let h = 0;
