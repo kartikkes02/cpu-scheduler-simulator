@@ -8,6 +8,7 @@ import React, { useState, useMemo } from "react";
 // - Quantum for RR, preemptive toggle for Priority
 // - Run simulation -> Gantt chart (SVG), metrics table, and timeline details
 // - Nice UI with Tailwind utility classes
+
 // Utility: generate distinct pastel colors
 
 function colorForPid(pid) {
